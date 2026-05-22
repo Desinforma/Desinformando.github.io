@@ -1,0 +1,39 @@
+header{
+background-color: #005999;
+
+height: auto;
+min-height: 10vh;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+font-size: 9vh;
+margin-bottom: 2vh;
+}
+article{
+  
+background-color: #e0e0e0;
+min-height: 75vh;
+height: auto;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+margin-bottom: 2vh;
+}
+footer{
+background-color: #739ebc;
+height: auto;
+min-height: 11vh;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.gog{
+width: auto;
+height: 100%;
+}
+.jgb{
+width: 25vw;
+height: 25vh;
+}
+.jg{
+    width: 10vw;
+height: 15vh;
+}
+.ft{
+    width: 5vw;
+    height: 10vh;
+}

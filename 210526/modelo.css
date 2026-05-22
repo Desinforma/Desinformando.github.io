@@ -1,0 +1,67 @@
+body{
+    background-color: #721828;
+    display: grid;
+    grid-gap: 2vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 65vh auto;
+min-height: 33vh;
+grid-template-areas:
+"tela tela"
+"texto info"
+;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+header{
+    background-color: #2a296b;
+    grid-area: tela;
+
+}
+aside{
+    background-color: rgba(0, 0, 0, 0.89);
+    grid-area: texto;
+    color: white;
+}
+article{
+    background-color: #721828;
+    grid-area: info;
+    display: grid;
+    grid-gap: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:  
+     "ficha ficha ficha"
+    "p1 p2 p3";
+     text-align: center;
+
+}
+.ficha{
+    background-color: #e9c707;
+    font-size: 10vh;
+    grid-area: ficha;
+}
+.p1{
+    background-color: rgba(14, 196, 29, 0.767);
+    grid-area: p1;
+}
+.p2{
+    background-color: #1b4ae4fd;
+    grid-area: p2;
+}
+.p3{
+    background-color: #f32501c0;
+    grid-area: p3;
+}
+.imgtela{
+ height: 65vh;
+ width: auto;   
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.ft{
+    height: auto;
+    width: 10vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
