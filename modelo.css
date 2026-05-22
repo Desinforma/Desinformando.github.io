@@ -1,0 +1,16 @@
+main{
+    background-color: #dfc909;
+}
+article{
+  
+background-color: #dfc909;
+min-height: 75vh;
+height: auto;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.imgtela{
+ height: 65vh;
+ width: auto;   
+display: block;
+margin-left: auto;
+margin-right: auto;}
